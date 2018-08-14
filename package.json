@@ -1,0 +1,26 @@
+{
+  "name": "composition-editor",
+  "version": "0.1.0",
+  "description": "Composition respecting editor",
+  "main": "index.js",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "@zeit/next-sass": "^0.2.0",
+    "babel-root-slash-import": "^1.1.0",
+    "next": "^6.1.1",
+    "node-sass": "^4.9.3",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "devDependencies": {
+    "jest": "^23.5.0"
+  }
+}
