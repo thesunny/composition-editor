@@ -14,6 +14,20 @@
       ],
       "plugins": ["module:babel-root-slash-import"]
     },
+    "production": {
+      "presets": [
+        [
+          "next/babel",
+          {
+            "preset-env": {},
+            "transform-runtime": {},
+            "styled-jsx": {},
+            "class-properties": {}
+          }
+        ]
+      ],
+      "plugins": ["module:babel-root-slash-import"]
+    },
     "test": {
       "presets": [
         "react",
