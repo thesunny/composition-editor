@@ -6,7 +6,7 @@ export default class App extends React.Component {
     return (
       <div>
         <link rel="stylesheet" href="/_next/static/style.css" />
-        <h1>Composition Respecting Editor</h1>
+        <h1>Composition Editor</h1>
         <Editor />
       </div>
     )

@@ -1,3 +1,36 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
   font: 15px lato;
+  padding: 25px 50px;
+}
+
+button {
+  width: 100px;
+  color: white;
+  background: orange;
+  font: 15px/25px lato;
+  border: 0;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.Editor {
+  margin-top: 10px;
+  border: 1px solid #E0E0E0;
+  padding: 20px;
+  width: 320px;
+  border-radius: 5px;
+}
+
+.EditorState {
+  margin-top: 25px;
+  font: 13px monospace;
+  white-space: pre;
 }
